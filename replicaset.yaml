@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
   name: xabiere-replicaset
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       tier: frontend
