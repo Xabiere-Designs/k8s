@@ -8,8 +8,8 @@ spec:
   - host: website01.example.internal
     http:
       paths:
-      - pathType: Prefix
-        path: "/"
+      - path: /
+        pathType: Prefix
         backend:
           service:
             name: service1
@@ -18,13 +18,10 @@ spec:
   - host: website02.example.internal
     http:
       paths:
-      - pathType: Prefix
-        path: "/"
+      - path: /
+        pathType: Prefix
         backend:
           service:
             name: service2
             port:
               number: 80
-
-
-
