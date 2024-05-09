@@ -1,0 +1,16 @@
+{
+  "version": "2.2.0",
+  "summary": {
+    "title": "k8_Threat_Dragon_Example",
+    "owner": "Xabiere_15",
+    "description": "Demo Threat Model",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 0,
+    "reviewer": "Corey Ducre",
+    "threatTop": 0
+  }
+}
