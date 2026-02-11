@@ -5,6 +5,8 @@ aws eks update-kubeconfig --name <cluster name> -- region <region of cluster>
 
 kubectl get configmap -n kube-system
 
+kubectl edit configmap aws-auth -n kube-system
+
 mapRoles:
 ----
 - groups:
