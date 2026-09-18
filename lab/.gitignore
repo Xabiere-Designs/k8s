@@ -1,0 +1,8 @@
+*.pem
+*.ppk
+id_rsa*
+k8s-lab
+k8s-lab.pub
+.terraform/
+*.tfstate
+*.tfstate.backup
