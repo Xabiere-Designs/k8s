@@ -14,7 +14,7 @@ variable "key_name" {
 
 variable "public_key_path" {
   description = "Local path to the matching public key"
-  default     = "~/.ssh/id_rsa.pub"
+  default     = "~/.ssh/k8s-lab.pub"
 }
 
 variable "my_ip" {
