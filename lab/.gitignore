@@ -6,3 +6,4 @@ k8s-lab.pub
 .terraform/
 *.tfstate
 *.tfstate.backup
+*.tfplan
